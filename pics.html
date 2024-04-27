@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Personal Bio </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="themeButton">Change Theme Color</button>
+    <h1>Emeka Onyioha</h1> 
+    <h2>Interactive Design Major</h2> 
+
+     <!-- NAVIGATION LINKS-->
+
+     <nav>
+        <ul>
+            <li><a href= "index.html"> About Me</a></li>
+            <li><a href= "hobbies.html"> Hobbies</a></li>
+            <li><a href= "favorites.html"> Favorites</a></li>
+            <li><a href= "pics.html"> Pics of my Hobbies</a></li>
+        </ul>
+    </nav>
+
+    <style>
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        p {text-align: center;}
+    </style>
+    <!--Using Div tag to seperate sections-->
+    <div id = "bio">
+    <h2>About Me</h2>
+    <p>Ka (greetings in the Igbo language) everyone! My name is Emeka Onyioha. My full first name is "Chukwuemeka" meaning
+         "God has done so much." My personal goal is to figure out ways to put myself ahead through my craft or my skill
+         (YouTube, Video Editing, Interactive Design). My professional goal is to make multiple sources of income one day
+          because I feel like that is important. I feel excited to take this class.</p>
+</div>
+
+
+
+<div id="hobbies">
+    <h2>Hobbies</h2>
+        <ul>
+            <li>Video Games</li>
+            <li>Hanging out around nature & family</li>
+            <li>Posting on YouTube</li>
+            <li>Learning how to make more revenue</li>
+        </ul>
+        
+   
+</div>
+
+
+
+<div id="favorites">
+    <h2>Favorites</h2>
+    <ul>
+        <li>To Be Continued</li>
+        <li>To Be Continued</li>
+        <li>To Be Continued</li>
+        <li>To Be Continued</li>
+        <li>To Be Continued</li>
+        <!--More favorites-->
+    </ul>
+</div>
+
+<!-- Pictures!-->
+<div id="hobbies">
+    <h2>Pics of my Hobbies</h2>
+    <img src="Akimebro.png" alt="Gaming YouTube Channel" width="500">
+    <img src="DragonBall.jpg" alt="Video Game" width="500">
+    <img src="Money.jpg" alt="Economics" width="500">
+    <img src="nature.jpg" alt="wilderness" width="500">
+</div>
+    <!--JAVASCRIPT-->
+    <script>
+        // JavaScript will go here
+    document.getElementById ('themeButton').addEventListener('click', function() {
+        document.body.classList.toggle('dark-theme');
+    } )
+    </script>
+
+<!-- Creating a Personal Profile Card-->
+<div class="profile-card">
+    <img src="2024 AKIMEBRO LOGO.png" alt="Profile Pictures" class="profile-pics" width="200" height="200" border="10">
+    <h3>Emeka Onyioha</h3>
+    <p>Interactive Desginer/YouTuber </p>
+    <p>Intrests: Laughing, Gaming, Grinding</p>
+    <!-- Add more details as needed-->
+</div>
+
+</body>
+</html>

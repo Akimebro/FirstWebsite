@@ -1,0 +1,127 @@
+body{
+    background-color: #ffb300; /* Orange backgrund*/
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: #333333; /*Dark grey text*/
+}
+
+h1, h2 {
+    font-family:'Times New Roman', serif;
+    color:#000000; /* Black text */
+}
+
+/*Margins and Padding*/
+
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px;
+
+}
+
+/* Margins, Borders, Padding*/
+#bio, #hobbies, #favorites {
+    margin: 20px;
+    border: 3px solid#000000;
+    padding: 20px;
+    background-color: #f88000;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li{
+    margin:5px;
+}
+
+
+body{
+    line-height: 1.6;
+    color: #333;
+    font-size: 16px;
+}
+
+#bio, #hobbies, #favorites {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1); /* Adding a subtle*/
+}
+
+
+/* Styles for Dark Theme Button*/
+.dark-theme {
+    background-color: #333; /* Dark background*/
+    color: #fff; /*light text*/
+}
+
+.dark-theme h1, .dark-theme h2, .dark-theme li {
+    color: #ffffff; /* white color for headers in dark theme */
+}
+
+.dark-theme #bio, .dark-theme #hobbies, .dark-theme #favorites {
+    border: 3px solid#aa00ff;
+    background-color: #ff009d;
+}
+
+
+/* NAVIGATION MENU STYLES*/
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+nav ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* ALigns menu items horizontally */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FF3131; /* Change color on hover */
+}
+
+/* Css Box Model for Profile card */
+.profile-card {
+    width: 300px;
+    margin: 20px auto;
+    border: 5px solid #000000;
+    padding: 20px;
+    background-color: #FF3131;
+    text-align: center;
+    box-shadow: 50 50px 50px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card .profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+
